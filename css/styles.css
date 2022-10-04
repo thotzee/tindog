@@ -1,0 +1,178 @@
+/*HTML elements*/
+
+h1, h2, h3, h4, h5, h6{
+  font-family: "Montserrat";
+  font-weight: bold;
+}
+
+p {
+  color: #8f8f8f;
+  line-height: 1.5rem;
+}
+
+a {
+  font-size: 1.5rem;
+}
+
+body{
+  text-align: center;
+}
+
+.container-fluid {
+  padding:7% 15%;
+}
+
+/* Sections */
+
+.colored-section{
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section{
+background-color: #fff;
+}
+
+/*Headings*/
+
+.big-heading{
+  font-size: 3.5rem;
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+.section-heading{
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+/* Features*/
+
+#features {
+  padding: 3% 15%;
+  position: relative;
+  z-index: 1;
+}
+
+.features-title{
+  font-size: 1.5rem;
+}
+
+.features {
+  padding: 4.7%;
+}
+
+.icon {
+  color: #ff4c68;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ef8172;
+}
+
+
+/* Navigation bar */
+.navbar {
+  padding-bottom: 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+  font-weight: 300;
+}
+
+/*Title*/
+
+
+.title-image {
+  transform: rotate(25deg);
+  position: absolute;
+  max-width: 60%;
+  right: 25%;
+}
+
+#title .container-fluid{
+  padding: 3% 15% 7%;
+  text-align: left;
+}
+
+/* download buttons */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/*Testimonials*/
+#testimonials {
+  background-color: #ff4c68;
+  position: relative;
+}
+
+.testimonial-text{
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+.testimonial-image {
+  margin: 20px;
+  border-radius: 100%;
+  width: 10%;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+#press {
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/*Cards*/
+#pricing {
+  padding: 100px;
+}
+
+.pricing-head{
+  font-size: 1.5rem;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+@media (max-width: 1171px) {
+  .title-image {
+    position: static;
+    transform: none;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  #title {
+    text-align: center;
+  }
+}
+
+
+.brand {
+  padding: 2% 1%;
+}
